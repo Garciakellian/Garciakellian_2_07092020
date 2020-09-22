@@ -1,5 +1,3 @@
-/*bleu #0065FC bleu claire #DEEBFF gris pour le fond #F2F2F2.*/
-
 * {
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
@@ -256,7 +254,6 @@ header a:hover {
 }
 
 #article1 {
-	border: white solid 5px;
 	border-radius: 20px;
 	margin-bottom: 70px;
 	width: 28.5%;
@@ -266,11 +263,11 @@ header a:hover {
 	background-position-x: center;
 	background-position-y: bottom;
 	background-repeat: no-repeat;
+	border: white solid 5px;
 	box-shadow: 5px 5px 5px #d8d8d8;
 }
 
 #article2 {
-	border: white solid 5px;
 	border-radius: 20px;
 	width: 28.5%;
 	height: 180px;
@@ -279,11 +276,11 @@ header a:hover {
 	background-position-x: center;
 	background-repeat: no-repeat;
 	background-position-y: bottom;
+	border: white solid 5px;
 	box-shadow: 5px 5px 5px #d8d8d8;
 }
 
 #article3 {
-	border: white solid 5px;
 	border-radius: 20px;
 	width: 28.5%;
 	height: 160px;
@@ -292,12 +289,12 @@ header a:hover {
 	background-position-y: bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: white solid 5px;
 	box-shadow: 5px 5px 5px #d8d8d8;
 }
 
 #article4 {
 	margin-bottom: 70px;
-	border: white solid 5px;
 	border-radius: 20px;
 	width: 28.5%;
 	height: 180px;
@@ -306,11 +303,11 @@ header a:hover {
 	background-position-y: bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: white solid 5px;
 	box-shadow: 5px 5px 5px #d8d8d8;
 }
 
 #article5 {
-	border: white solid 5px;
 	border-radius: 20px;
 	width: 28.5%;
 	height: 180px;
@@ -319,19 +316,20 @@ header a:hover {
 	background-position-y: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: white solid 5px;
 	box-shadow: 5px 5px 5px #d8d8d8;
 }
 
 #article6 {
-	border: white solid 5px;
 	border-radius: 20px;
 	width: 28.5%;
 	height: 180px;
 	background-image: url(images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 	background-position-x: center;
-	background-position-y: bottom;
+	background-position-y: 70%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border: white solid 5px;
 	box-shadow: 5px 5px 5px #d8d8d8;
 }
 
@@ -339,12 +337,13 @@ header a:hover {
 	background-color: white;
 	color: black;
 	height: 80px;
-	width: 100%;
+	width: 97%;
+	margin-left: -5px;
+	padding-left: 3%;
 	margin-top: 150px;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-	margin-left: -5px;
-	padding-left: 10px;
+	border: white solid 5px;
 	box-shadow: 5px 5px 5px #d8d8d8;
 }
 
@@ -415,13 +414,11 @@ header a:hover {
 	padding-left: 6%;
 	padding-right: 6.5%;
 	width: 50%;
-	height: 170px;
-	margin-top: -5px;
-	box-shadow: 5px 5px 5px #d8d8d8;
+	height: 165px;
+	margin-top: -3px;
 }
 
 #article7 {
-	border: 5px white solid;
 	border-radius: 20px;
 	width: 90%;
 	height: 160px;
@@ -429,22 +426,20 @@ header a:hover {
 	background-size: 240px;
 	background-image: url(images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
 	background-repeat: no-repeat;
-	background-position-x: -50px;
 	box-shadow: 5px 5px 5px #d8d8d8;
+	border: 5px white solid;
 }
 
 #article8 {
-	border: 5px white solid;
 	border-radius: 20px;
 	width: 90%;
 	height: 160px;
 	margin-top: 18px;
 	background-size: 220px;
 	background-image: url(images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
-	background-position-x: -25px;
 	background-repeat: no-repeat;
-	background-position-x: -50px;
 	box-shadow: 5px 5px 5px #d8d8d8;
+	border: 5px white solid;
 }
 
 #article9 {
@@ -458,6 +453,7 @@ header a:hover {
 	background-position-y: bottom;
 	background-repeat: no-repeat;
 	box-shadow: 5px 5px 5px #d8d8d8;
+
 }
 
 #populaire h4 {
@@ -693,6 +689,7 @@ footer h2 {
 	}
 }
 
+
 @media screen and (max-device-width: 767px) {
 	/*--header--*/
 	header {
@@ -771,7 +768,6 @@ footer h2 {
 		font-size: 2em;
 		background-color: #f2f2f2;
 		position: relative;
-		top: -1%;
 		height: 58px;
 		text-align: center;
 		padding-left: 0;
@@ -934,6 +930,7 @@ footer h2 {
 	}
 	.back_white2{
 		height: 310px;
+		margin-top: -5px;
 	}
 	#article7 {
 		background-size: 500px;
@@ -942,6 +939,8 @@ footer h2 {
 		background-position-y: bottom;
 		width: 95%;
 		height: 300px;
+		border: white solid 15px;
+		margin-top: 0;
 	}
 	#article8 {
 		background-size: 500px;
@@ -950,15 +949,15 @@ footer h2 {
 		background-position-y: bottom;
 		width: 95%;
 		height: 300px;
+		border: white solid 15px;
 	}
 	#article9 {
 		background-size: 450px;
 		background-image: url(images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 		background-repeat: no-repeat;
-		background-position-y: -250px;
-		background-position-x: -10px;
 		width: 95%;
 		height: 300px;
+		border: white solid 15px;
 	}
 	#marseille h3 {
 		font-size: 1.5em;
@@ -993,7 +992,6 @@ footer h2 {
 		width: 97%;
 		height: 350px;
 		margin-bottom: 50px;
-		background-position-y: -700px;
 	}
 	.back_white {
 		margin-top:220px;
